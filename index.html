@@ -23,11 +23,8 @@
     <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
     <link rel="stylesheet" type="text/css" href="/css/matery.css">
     <link rel="stylesheet" type="text/css" href="/css/my.css">
-    <style type="text/css">
-        
-    </style>
-
-    <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
+    
+    <script src="/libs/jquery/jquery.min.js"></script>
     
 <link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
@@ -151,80 +148,80 @@
 
     <ul class="menu-list mobile-menu-list">
         
-<li class="m-nav-item">
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
 			
-				<a href="/" class="waves-effect waves-light">
-					
-					<i class="fa-fw fas fa-home"></i>
-					
-					首页
-				</a>
+			    <i class="fa-fw fas fa-home"></i>
+			
+			首页
+		</a>
           
         </li>
         
-<li class="m-nav-item">
+        <li class="m-nav-item">
+	  
+		<a href="/tags" class="waves-effect waves-light">
 			
-				<a href="/tags" class="waves-effect waves-light">
-					
-					<i class="fa-fw fas fa-tags"></i>
-					
-					标签
-				</a>
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			标签
+		</a>
           
         </li>
         
-<li class="m-nav-item">
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
 			
-				<a href="/categories" class="waves-effect waves-light">
-					
-					<i class="fa-fw fas fa-bookmark"></i>
-					
-					分类
-				</a>
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			分类
+		</a>
           
         </li>
         
-<li class="m-nav-item">
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
 			
-				<a href="/archives" class="waves-effect waves-light">
-					
-					<i class="fa-fw fas fa-archive"></i>
-					
-					归档
-				</a>
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			归档
+		</a>
           
         </li>
         
-<li class="m-nav-item">
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
 			
-				<a href="/about" class="waves-effect waves-light">
-					
-					<i class="fa-fw fas fa-user-circle"></i>
-					
-					关于
-				</a>
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			关于
+		</a>
           
         </li>
         
-<li class="m-nav-item">
+        <li class="m-nav-item">
+	  
+		<a href="/contact" class="waves-effect waves-light">
 			
-				<a href="/contact" class="waves-effect waves-light">
-					
-					<i class="fa-fw fas fa-comments"></i>
-					
-					Contact
-				</a>
+			    <i class="fa-fw fas fa-comments"></i>
+			
+			Contact
+		</a>
           
         </li>
         
-<li class="m-nav-item">
+        <li class="m-nav-item">
+	  
+		<a href="/friends" class="waves-effect waves-light">
 			
-				<a href="/friends" class="waves-effect waves-light">
-					
-					<i class="fa-fw fas fa-address-book"></i>
-					
-					友情链接
-				</a>
+			    <i class="fa-fw fas fa-address-book"></i>
+			
+			友情链接
+		</a>
           
         </li>
         
@@ -393,12 +390,7 @@
 </script>
 
 
-
             <div class="cover-btns">
-                <a href="#indexCard" class="waves-effect waves-light btn">
-                    <i class="fas fa-angle-double-down"></i>开始阅读
-                </a>
-
                 
                 <a href="https://github.com/spb512" class="waves-effect waves-light btn" target="_blank">
                     <i class="fab fa-github-alt"></i>Github
@@ -422,10 +414,6 @@
 
 
 
-    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=994330982" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 994330982" data-position="top" data-delay="50">
-        <i class="fab fa-qq"></i>
-    </a>
-
 
 
     <a href="https://weibo.com/2770465457/profile" class="tooltipped" target="_blank" data-tooltip="关注我的微博: https://weibo.com/2770465457/profile" data-position="top" data-delay="50">
@@ -446,11 +434,41 @@
 
 </div>
         </div>
+        <div class="container" style="bottom: 0; position: absolute; top: unset; height: 45px;">
+            <div class="cover-btns" style="top: unset;">
+                <a href="#indexCard" class="waves-effect waves-light btn scroll-down">
+                    <i class="fas fa-angle-double-down"></i>开始阅读
+                </a>
+            </div>
+        </div>
     </div>
 
     
     
 
+    
+    
+    <div class="carousel-item amber white-text carousel-post bg-cover"
+            style="background-image: url('/medias/featureimages/10.jpg');">
+        <div class="container" style="right: 0px;left: 0px;">
+            <div class="row">
+                <div class="col s10 offset-s1">
+                    <div class="title center-align">SQL优化学习</div>
+                    <div class="description center-align">
+                    
+                        查询速度慢的原因流程上的慢执行查询时间花费在网络、cpu计算、生成统计信息、执行计划、锁等待（互斥等待）这些环节，任何一个环节都有可能是慢的原因。
+不合理操作在每一个消耗大量时间的查询案例中，我们都能看到一些不必要的额外操作、某些操作被额外
+                    
+                    </div>
+                    <div class="cover-btns">
+                        <a href="/2019/07/12/sql-you-hua-xue-xi/" class="waves-effect waves-light btn" target="_blank">
+                            <i class="icon far fa-eye fa-fw"></i>阅读更多
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     
     
     <div class="carousel-item amber white-text carousel-post bg-cover"
@@ -466,6 +484,30 @@
                     </div>
                     <div class="cover-btns">
                         <a href="/2019/07/05/hello-world/" class="waves-effect waves-light btn" target="_blank">
+                            <i class="icon far fa-eye fa-fw"></i>阅读更多
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="carousel-item amber white-text carousel-post bg-cover"
+            style="background-image: url('/medias/featureimages/17.jpg');">
+        <div class="container" style="right: 0px;left: 0px;">
+            <div class="row">
+                <div class="col s10 offset-s1">
+                    <div class="title center-align">索引学习和总结</div>
+                    <div class="description center-align">
+                    
+                        创建高性能的索引索引基础定义：索引是一种单独的、物理的对数据库表中一列或多列的值进行排序的一种存储结构，它是某个表中一列或若干列值的集合和相应的指向表中物理标识这些值的数据页的逻辑指针清单。
+类型：
+B-Tree索引：B-Tree数据结构来
+                    
+                    </div>
+                    <div class="cover-btns">
+                        <a href="/2019/07/10/suo-yin-xue-xi-he-zong-jie/" class="waves-effect waves-light btn" target="_blank">
                             <i class="icon far fa-eye fa-fw"></i>阅读更多
                         </a>
                     </div>
@@ -500,53 +542,6 @@
     </div>
     
     
-    <div class="carousel-item amber white-text carousel-post bg-cover"
-            style="background-image: url('/medias/featureimages/10.jpg');">
-        <div class="container" style="right: 0px;left: 0px;">
-            <div class="row">
-                <div class="col s10 offset-s1">
-                    <div class="title center-align">SQL优化学习</div>
-                    <div class="description center-align">
-                    
-                        查询速度慢的原因流程上的慢执行查询时间花费在网络、cpu计算、生成统计信息、执行计划、锁等待（互斥等待）这些环节，任何一个环节都有可能是慢的原因。
-不合理操作在每一个消耗大量时间的查询案例中，我们都能看到一些不必要的额外操作、某些操作被额外
-                    
-                    </div>
-                    <div class="cover-btns">
-                        <a href="/2019/07/12/sql-you-hua-xue-xi/" class="waves-effect waves-light btn" target="_blank">
-                            <i class="icon far fa-eye fa-fw"></i>阅读更多
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    
-    <div class="carousel-item amber white-text carousel-post bg-cover"
-            style="background-image: url('/medias/featureimages/17.jpg');">
-        <div class="container" style="right: 0px;left: 0px;">
-            <div class="row">
-                <div class="col s10 offset-s1">
-                    <div class="title center-align">索引学习和总结</div>
-                    <div class="description center-align">
-                    
-                        创建高性能的索引索引基础定义：索引是一种单独的、物理的对数据库表中一列或多列的值进行排序的一种存储结构，它是某个表中一列或若干列值的集合和相应的指向表中物理标识这些值的数据页的逻辑指针清单。
-类型：
-B-Tree索引：B-Tree数据结构来
-                    
-                    </div>
-                    <div class="cover-btns">
-                        <a href="/2019/07/10/suo-yin-xue-xi-he-zong-jie/" class="waves-effect waves-light btn" target="_blank">
-                            <i class="icon far fa-eye fa-fw"></i>阅读更多
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    
 </div>
 
 <script>
@@ -560,8 +555,19 @@ $(function () {
 
     let carouselIntervalId;
     
+    // Loop to call the next cover article picture.
+    let autoCarousel = function() {
+        carouselIntervalId = setInterval(function () {
+            coverSlider.carousel('next');
+        }, 5000);
+    };
+    autoCarousel();
+    
 
     let restartPlay = function () {
+        
+        clearInterval(carouselIntervalId);
+        autoCarousel();
         
     };
 
@@ -634,7 +640,7 @@ $(function () {
         volume: Number('0.7'),
         listFolded: 'false' === 'true',
         listMaxHeight: '',
-        audio: JSON.parse('[{"name":"心如止水","artist":"Ice Paper","url":"http://fs.open.kugou.com/dac7c8c4144d938e8321a32011a32a8e/5d20b758/G117/M08/13/1F/tQ0DAFx5A3uAfPOBAC1GYIo2lU0616.mp3","cover":"http://p1.music.126.net/MLQl_7poLz2PTON6_JZZRQ==/109951163938219545.jpg?param=34y34"},{"name":"余情未了","artist":"魏新雨","url":"http://101.44.1.114/hotfiles/5128000007F034DE/101.44.1.5/files/3128000007F034DE/fs.w.kugou.com/201905210002/542dbcc86bed9a12f63d68ce38effb95/G160/M0B/11/07/gJQEAFzbfVCAAUHHADTJ02KSDuQ335.mp3","cover":"http://p2.music.126.net/oD4wJNHiEV-qKmVV1DjPJw==/109951163573512400.jpg?param=130y130"},{"name":"一曲相思","artist":"半阳","url":"http://101.44.1.130/hotfiles/509500000775C842/101.44.1.12/files/209500000775C842/fs.android2.kugou.com/af43230fe6288f9dd79ef537c5da216e/5bd146d6/G085/M07/0B/10/lQ0DAFujV42AK4xpACkHR2d9qTo587.mp3","cover":"https://p1.music.126.net/yHRY23bKbLJjjbSnE-T8gA==/109951163575213436.jpg?param=34y34"},{"name":"琵琶语","artist":"玖月花儿与筝","url":"http://101.44.1.8/files/3001000007D44318/fs.ios.kugou.com/201903240959/f255821a904694ee8a8e61bae03c33a2/G108/M0A/02/09/TJQEAFmX6VmANmKVAD42s63z1q4132.mp3","cover":"https://p1.music.126.net/K6Qm4F8F6fjV4UvozWVJCA==/17926437579458259.jpg?param=34y34"}]')
+        audio: JSON.parse('[{"name":"世间美好与你环环相扣","artist":"柏松","url":"http://m10.music.126.net/20191106161814/0c2488021d988263350c464b08fdd272/ymusic/0459/045c/520c/330c359473365e50a368ef0d43bc612f.mp3","cover":"http://p2.music.126.net/DK1_4sP_339o5rowMdPXdw==/109951164071024476.jpg?param=300x300"},{"name":"余情未了","artist":"魏新雨","url":"http://101.44.1.114/hotfiles/5128000007F034DE/101.44.1.5/files/3128000007F034DE/fs.w.kugou.com/201905210002/542dbcc86bed9a12f63d68ce38effb95/G160/M0B/11/07/gJQEAFzbfVCAAUHHADTJ02KSDuQ335.mp3","cover":"http://p2.music.126.net/oD4wJNHiEV-qKmVV1DjPJw==/109951163573512400.jpg?param=130y130"},{"name":"一曲相思","artist":"半阳","url":"http://101.44.1.130/hotfiles/509500000775C842/101.44.1.12/files/209500000775C842/fs.android2.kugou.com/af43230fe6288f9dd79ef537c5da216e/5bd146d6/G085/M07/0B/10/lQ0DAFujV42AK4xpACkHR2d9qTo587.mp3","cover":"https://p1.music.126.net/yHRY23bKbLJjjbSnE-T8gA==/109951163575213436.jpg?param=34y34"},{"name":"琵琶语","artist":"玖月花儿与筝","url":"http://101.44.1.8/files/3001000007D44318/fs.ios.kugou.com/201903240959/f255821a904694ee8a8e61bae03c33a2/G108/M0A/02/09/TJQEAFmX6VmANmKVAD42s63z1q4132.mp3","cover":"https://p1.music.126.net/K6Qm4F8F6fjV4UvozWVJCA==/17926437579458259.jpg?param=34y34"},{"name":"玉生烟","artist":"七朵组合","url":"http://isure.stream.qqmusic.qq.com/C400003ZoQ1v1gUFov.m4a?guid=126368044&vkey=A8E1FBAFDE690A6C7C66ABD379645D61ED2CBC50B36F0EACF7C33210D7B74DC595558E31EC00DC509FDF8A8A8E9DF55CE9E76EA6257AC657&uin=0&fromtag=66","cover":"http://y.gtimg.cn/music/photo_new/T002R300x300M000002B9Kv00BjBEu.jpg"},{"name":"起风了","artist":"买辣椒也用券","url":"http://m10.music.126.net/20191106162804/057416ed371dc8acda8e8c629c8b39af/ymusic/0758/550f/545f/028d3b9421be8425d60dc57735cf6ebc.mp3","cover":"http://p2.music.126.net/diGAyEmpymX8G7JcnElncQ==/109951163699673355.jpg?param=300x300"}]')
     });
 });
 </script>
@@ -695,7 +701,9 @@ $(function () {
             <div class="post-body">
                 <div class="post-categories">
                     
-                    <a href="/categories/node/" class="category">node</a>
+                        
+                            <a href="/categories/node/" class="category">node</a>
+                        
                     
                 </div>
                 <a href="/2019/07/05/hello-world/">
@@ -938,9 +946,6 @@ B-Tree索引：B-Tree数据结构来
             |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
             <br>
             
-            &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">16.3k</span>&nbsp;字
-            
             
             
             
@@ -958,6 +963,7 @@ B-Tree索引：B-Tree数据结构来
             </span>
             
             <br>
+            
             <span id="sitetime">载入运行时间...</span>
             <script>
                 function siteTime() {
@@ -1002,6 +1008,7 @@ B-Tree索引：B-Tree数据结构来
                 }
                 setInterval(siteTime, 1000);
             </script>
+            
             <br>
             
         </div>
@@ -1021,10 +1028,6 @@ B-Tree索引：B-Tree数据结构来
 
 
 
-
-    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=994330982" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 994330982" data-position="top" data-delay="50">
-        <i class="fab fa-qq"></i>
-    </a>
 
 
 
@@ -1089,7 +1092,6 @@ $(function () {
 
     <!-- Baidu Analytics -->
 
-
     <!-- Baidu Push -->
 
 <script>
@@ -1116,25 +1118,6 @@ $(function () {
     
 
     
-    <script>
-        (function (i, s, o, g, r, a, m) {
-            i["DaoVoiceObject"] = r;
-            i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o), m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            a.charset = "utf-8";
-            m.parentNode.insertBefore(a, m)
-        })(window, document, "script", ('https:' == document.location.protocol ? 'https:' : 'http:') +
-            "//widget.daovoice.io/widget/6984b559.js", "daovoice")
-        daovoice('init', {
-            app_id: ""
-        });
-        daovoice('update');
-    </script>
-    
 
     
 
@@ -1144,6 +1127,8 @@ $(function () {
     <script type="text/javascript" src="/libs/background/ribbon-dynamic.js" async="async"></script>
     
     
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
     
 
 </body>
